@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade - TCG Credits</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+      color: rgba(255,255,255,0.85);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    .container { max-width: 700px; margin: 0 auto; }
+    h1 { font-size: 24px; color: #F5C542; margin-bottom: 8px; }
+    .updated { font-size: 12px; color: rgba(255,255,255,0.4); margin-bottom: 32px; }
+    h2 { font-size: 17px; color: #F5C542; margin: 28px 0 10px; }
+    p { font-size: 14px; line-height: 1.8; margin-bottom: 12px; }
+    ul { padding-left: 20px; margin: 8px 0 16px; }
+    li { font-size: 14px; line-height: 1.8; }
+    a { color: #F5C542; }
+    .footer {
+      font-size: 12px;
+      color: rgba(255,255,255,0.3);
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Política de Privacidade</h1>
+    <p class="updated">Última atualização: maio de 2026</p>
+
+    <p>O aplicativo <strong>TCG Credits</strong> ("nós", "nosso") é um sistema de gestão de créditos para lojas de card games (TCG). Esta política descreve como coletamos, usamos e protegemos suas informações pessoais.</p>
+
+    <h2>1. Dados que coletamos</h2>
+    <p>Ao utilizar o app, coletamos:</p>
+    <ul>
+      <li><strong>Dados de cadastro:</strong> nome completo, endereço de email e senha (armazenada de forma criptografada)</li>
+      <li><strong>Dados de perfil (opcionais):</strong> número de telefone e foto de perfil</li>
+      <li><strong>Dados de uso:</strong> histórico de transações de crédito e débito na loja</li>
+      <li><strong>Dados de autenticação:</strong> se utilizar login com Google, recebemos seu nome e email da conta Google</li>
+    </ul>
+
+    <h2>2. Como usamos seus dados</h2>
+    <p>Seus dados são utilizados exclusivamente para:</p>
+    <ul>
+      <li>Autenticar seu acesso ao aplicativo</li>
+      <li>Gerenciar seu saldo de créditos na loja</li>
+      <li>Permitir que o responsável pela loja registre transações de crédito e débito</li>
+      <li>Enviar notificações dentro do app sobre novas transações</li>
+      <li>Exibir seu nome e foto de perfil em comentários do feed de novidades</li>
+      <li>Permitir contato pela loja via telefone cadastrado</li>
+    </ul>
+
+    <h2>3. Compartilhamento de dados</h2>
+    <p>Não vendemos, alugamos ou compartilhamos seus dados pessoais com terceiros para fins comerciais ou publicitários.</p>
+    <p>Seus dados são compartilhados apenas com:</p>
+    <ul>
+      <li><strong>Supabase Inc.</strong> — provedor de infraestrutura (banco de dados, autenticação e armazenamento). Seus dados são armazenados em servidores seguros na região da América do Sul (São Paulo).</li>
+      <li><strong>Google</strong> — apenas se você optar pelo login com Google, para fins de autenticação.</li>
+      <li><strong>Responsável pela loja (owner)</strong> — tem acesso ao seu nome, email, telefone, foto e histórico de transações para fins de gestão dos créditos.</li>
+    </ul>
+
+    <h2>4. Armazenamento e segurança</h2>
+    <p>Adotamos as seguintes medidas de segurança:</p>
+    <ul>
+      <li>Todas as comunicações são feitas via HTTPS (criptografia em trânsito)</li>
+      <li>Senhas são armazenadas com hash bcrypt (nunca em texto puro)</li>
+      <li>Acesso ao banco de dados é protegido por Row Level Security (RLS), garantindo que cada jogador só acessa seus próprios dados</li>
+      <li>Tokens de autenticação (JWT) expiram periodicamente e são renovados automaticamente</li>
+      <li>Credenciais de login biométrico são armazenadas no armazenamento seguro do dispositivo (Keychain/EncryptedSharedPreferences)</li>
+    </ul>
+
+    <h2>5. Seus direitos</h2>
+    <p>Você tem o direito de:</p>
+    <ul>
+      <li><strong>Acessar</strong> seus dados pessoais a qualquer momento pelo app</li>
+      <li><strong>Corrigir</strong> seu nome, telefone e foto de perfil pela tela de edição de perfil</li>
+      <li><strong>Solicitar exclusão</strong> da sua conta e todos os dados associados. Para isso, envie um email para <a href="mailto:SEU_EMAIL_AQUI">SEU_EMAIL_AQUI</a></li>
+      <li><strong>Revogar consentimento</strong> a qualquer momento, deixando de utilizar o app</li>
+    </ul>
+
+    <h2>6. Retenção de dados</h2>
+    <p>Seus dados são mantidos enquanto sua conta estiver ativa. Após a exclusão da conta:</p>
+    <ul>
+      <li>Dados pessoais (nome, email, telefone, foto) são removidos em até 7 dias úteis</li>
+      <li>Histórico de transações é anonimizado (mantido para registros contábeis da loja, sem identificação pessoal)</li>
+    </ul>
+
+    <h2>7. Menores de idade</h2>
+    <p>O aplicativo não é direcionado a menores de 13 anos. Não coletamos intencionalmente dados de crianças. Se tomarmos conhecimento de que coletamos dados de um menor de 13 anos, tomaremos medidas para excluir essas informações.</p>
+
+    <h2>8. Alterações nesta política</h2>
+    <p>Podemos atualizar esta política periodicamente. Alterações significativas serão comunicadas pelo feed de novidades do app. Recomendamos revisar esta página ocasionalmente.</p>
+
+    <h2>9. Contato</h2>
+    <p>Para dúvidas sobre esta política de privacidade ou sobre seus dados pessoais, entre em contato:</p>
+    <p><strong>Email:</strong> <a href="mailto:lab6.tcg@gmail.com">lab6.tcg@gmail.com</a></p>
+
+    <p class="footer">TCG Credits — Gestão de créditos para lojas de card game.<br>Esta política está em conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).</p>
+  </div>
+</body>
+</html>
